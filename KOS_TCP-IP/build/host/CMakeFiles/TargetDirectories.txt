@@ -1,5 +1,0 @@
-/workspace/KOS_TCP-IP/build/host/CMakeFiles/rebuild_cache.dir
-/workspace/KOS_TCP-IP/build/host/CMakeFiles/edit_cache.dir
-/workspace/KOS_TCP-IP/build/host/server/CMakeFiles/rebuild_cache.dir
-/workspace/KOS_TCP-IP/build/host/server/CMakeFiles/server.dir
-/workspace/KOS_TCP-IP/build/host/server/CMakeFiles/edit_cache.dir
