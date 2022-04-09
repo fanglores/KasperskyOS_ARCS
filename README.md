@@ -1,3 +1,3 @@
 # KasperskyOS-ARCS
 Autonomous robot control system running on KasperskyOS  
-Realised on pore sockets
+Realised on pure sockets
