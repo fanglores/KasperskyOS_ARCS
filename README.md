@@ -4,21 +4,11 @@ System for controlling autonomous robot. Current implementation designed for Wav
 
 ### Repository structure
     .  
-    ├── KOS_TCP-IP/                       # general folder for the project  
-    |    ├── client/                      # net2 client code folder  
-    |    ├── server/                      # net2 server code folder
+    ├── KOS_Client/                       # the latest version of the project
+    |    ├── server/                      # GPIO&TCP/IP client source code folder  
     |    ├── einit/                       # einit entity  
     |    ├── env/                         # env entity  
-    |    ├── vfs/                         # netvfs entity  
-    |    ├── resources/                   # edl files  
-    |    | 
-    |    ├── CMakeLists.txt               # top-level CMake list
-    |    └── cross-build.sh               # script for compiling and executing code under qemu
-    |  
-    |  
-    ├── KOS_GPIO/
-    |    ├── client/                      # gpio client code folder  
-    |    ├── einit/                       # einit entity  
+    |    ├── vfs/                         # vfs entity  
     |    ├── resources/                   # edl files  
     |    | 
     |    ├── CMakeLists.txt               # top-level CMake list
@@ -26,12 +16,20 @@ System for controlling autonomous robot. Current implementation designed for Wav
     |    ├── image-build.sh               # script for creating kos-image for RPi 4B  
     |    └── mount-image.sh               # script for mounting kos-image on sd card  
     |  
+    |  
+    ├── server/                           # linux server code  
+    |    ├── server/                      # server source code folder for connecting to the KasperskyOS client
+    |    | 
+    |    ├── CMakeLists.txt               # top-level CMake list
+    |    └── cross-build.sh               # script for compiling the code and creating executable
+    |  
+    |  
     ├── .gitignore  
-    └── README.md                         # you are here
+    └── README.md  
   
 ### To-do list
   - [x] Add to-do list
-  - [ ] Write further tasks in here
+  - [ ] Unite GPIO and NetVFS already
   
-fanglores, Moscow Aviation Institute  
+Konstantin Tsaturyan (aka fanglores), Moscow Aviation Institute  
 Moscow, 2022
